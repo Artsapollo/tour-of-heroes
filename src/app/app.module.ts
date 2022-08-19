@@ -7,15 +7,18 @@ import { FormsModule } from '@angular/forms'
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeroesComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        HeroesComponent
+    ],
+    imports: [
+        BrowserModule,
+        FormsModule
+    ],
+    providers: [],
+    exports: [
+        AppComponent
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
